@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from exceptions import NotEnoughCapacity
+from part2.exceptions import NotEnoughCapacity
 
 
 class Storage(ABC):

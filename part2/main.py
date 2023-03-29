@@ -1,6 +1,6 @@
-from request import Request
-from shop import Shop
-from storage import Store
+from part2.request import Request
+from part2.shop import Shop
+from part2.storage import Store
 
 
 def main():
@@ -47,8 +47,6 @@ def main():
         except Exception:
             raise
             continue
-
-
 
         print("В складе хранится:")
         print(store.get_items())

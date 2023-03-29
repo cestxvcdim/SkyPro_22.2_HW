@@ -1,4 +1,3 @@
-
 class Request:
     def __init__(self, request):
         self._string = request.split()

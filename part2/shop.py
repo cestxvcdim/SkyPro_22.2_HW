@@ -1,5 +1,5 @@
-from exceptions import NotEnoughCapacity, NotEnoughTypes
-from storage import Store
+from part2.exceptions import NotEnoughCapacity, NotEnoughTypes
+from part2.storage import Store
 
 
 class Shop(Store):
